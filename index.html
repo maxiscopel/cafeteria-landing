@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Latido - Sabor que despierta tus sentidos</title>
+   <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+</style>
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Cafe Latido</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#menu">Menú</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h2>Sabor que despierta tus sentidos</h2> 
+            <a href="#menu" class="button">Ver menú</a>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <h2>Nuestro Menú</h2> <div class="menu-items-container">
+                <article class="menu-item">
+                    <img src="assets/img/cafe-expresso.jpeg" alt="Cafe Expresso">
+                    <h3>Cafe Expresso</h3>
+                    <p class="description">La especialidad de la casa</p>
+                    <p class="price">$1500</p>
+                </article>
+
+                <article class="menu-item">
+                    <img src="assets/img/capuccino.jpeg" alt="Capuccino">
+                    <h3>Capuccino</h3>
+                    <p class="description">Hecho con los mejores granos de Cafe</p>
+                    <p class="price">$1750</p>
+                </article>
+
+                <article class="menu-item">
+                    <img src="assets/img/te-chai.jpeg" alt="Te chai">
+                    <h3>Te Chai</h3>
+                    <p class="description">El mejor Te Chai con canela</p>
+                    <p class="price">$1200</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2>Contactanos</h2>
+            <p>Direccion: Argentina 555</p>
+            <p>Telefono: 2134891236</p>
+            <p>Redes: IG:CAFELATIDO.. </p>
+            <form class="contact-form">
+                
+                <div class="input-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+
+                   
+                     <label for="message">Mensaje</label>
+                     <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                    
+                        <input class="btn" type="submit" value="Enviar">
+                    </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Café Latido. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
