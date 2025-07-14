@@ -80,7 +80,7 @@ body {
     padding: 80px 30px;
     text-align: center;
     background-image: url(../assets/img/cafe_fondo.jpg);
-    color: #fff; /* asegurás contraste en caso de fondo oscuro */
+    color: #fff; 
 }
 
 .menu-section h2 {
@@ -89,13 +89,13 @@ body {
     color: rgb(255, 255, 255);
 }
 .btn-ingredientes {
-    background-color: #8B4513 !important; /* Marrón tipo café */
+    background-color: #8B4513 !important; 
     color: white;
     border: none;
 }
 
 .btn-ingredientes:hover {
-    background-color: #A0522D !important; /* Marrón más claro al pasar el mouse */
+    background-color: #A0522D !important; 
 }
 
 
@@ -130,7 +130,7 @@ body {
     border-top-right-radius: 5px;
 }
 
-/* texto dentro de las tarjetas */
+
 .menu-item .card-title {
     font-size: 1.5em;
     color: #333;
